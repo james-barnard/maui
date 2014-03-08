@@ -1,0 +1,7 @@
+#!/bin/bash
+export MAUIHOME=~/code/Maui1.2
+export CLASSPATH=~/code/Maui1.2/src
+for f in ~/code/Maui1.2/lib/*.jar
+do
+  CLASSPATH=$CLASSPATH:$f
+done
